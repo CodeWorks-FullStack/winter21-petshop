@@ -1,9 +1,9 @@
 import express from 'express'
-import Startup from './Startup'
 import DbContext from './db/DbConfig'
+import Startup from './Startup'
 import { logger } from './utils/Logger'
 
-// create server & socketServer
+// create server (castle)
 const app = express()
 const port = process.env.PORT || 3000
 
